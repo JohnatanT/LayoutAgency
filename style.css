@@ -1,0 +1,140 @@
+
+body {
+  font-family: "Volkorn", Georgia, Serif;
+}
+
+nav.navbar-transparente{
+  padding: 15px 0px;
+  border: none;
+  padding-bottom: 100px;
+}
+
+.navbar{
+  background-image: url('imagens/bg-clientes.jpg');
+  border-radius: 0px;
+}
+
+.navbar-brand{
+  padding: 0px;
+  padding: 5px 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
+  color: #fff;
+  transition: 0.1s;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+  color: #9bf0e1;
+  background: none;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+  background-color: transparent;
+}
+.navbar-inverse .navbar-toggle{
+  border-color: #fff;
+}
+
+nav.navbar-transparente .info-topo{
+  text-align: center;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+nav.navbar-transparente .info-topo h3,nav.navbar-transparente .info-topo h4{
+  text-transform: uppercase;
+}
+nav.navbar-transparente .mais-info{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 60px;
+    padding: 10px 10px;
+    transition: 0.1s;
+}
+nav.navbar-transparente .botao{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+nav.navbar-transparente .mais-info:hover{
+  color: #000;
+  background-color: #fff;
+}
+
+/* Tipográfia */
+h1{
+  font-size: 100px;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  margin-bottom: 50px;
+}
+
+h2{
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+h3{
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+
+.main{
+  box-shadow: 1px 6px 20px 5px #999;
+  margin-bottom: 60px;
+  /*margin-top: 500px;*/
+}
+
+.conteudo .sobre-nos .texto,.conteudo .desenvolvimento .texto,.conteudo .vantagens .texto,.conteudo .produtos .texto{
+  margin-top: 60px;
+  color: #797878;
+  font-size: 15px;
+}
+
+.conteudo .sobre-nos .texto h2,.conteudo .desenvolvimento .texto h2,.conteudo .vantagens .texto h2,.conteudo .produtos .texto h2{
+  color: rgb(80, 133, 230);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 39px;
+}
+
+.conteudo .bloco{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 10px
+}
+
+.more-info{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.resumo{
+  text-align: center;
+  color: #656667;
+}
+
+footer{
+  background-color: #000;
+    display: block;
+    padding: 3px;
+    text-align: center;
+    color: #fff;
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+footer a:hover{
+  text-decoration: none;
+  color: #fff;
+}
